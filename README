@@ -1,0 +1,8 @@
+This simple PHP script uses site scraping techniques to get stock price data.
+
+Simply pass in a RESTful request to this script with one variable: ticker
+e.g. yoursite.com/index.php?ticker=IBM
+
+You will get a return of the stock price.
+
+If you receive an error, then all 3 sources from this script have restructured their sites and rendered this script useless
