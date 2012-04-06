@@ -1,8 +1,17 @@
-This simple PHP script uses site scraping techniques to get stock price data.
+This simple PHP script uses site scraping techniques to get stock price data from online data providers.
 
-Simply pass in a RESTful request to this script with one variable: ticker
+Contributors are welcome to fork this project using new source sites and innovative scraping techniques. Any useful code from forked projects which accelerates the real-time data return of this script will be added to each update of this project.
+
+Instructions:
+
+Add this script to your server.
+
+Simply pass in a RESTful GET request to this script with one variable: ticker.
 e.g. yoursite.com/index.php?ticker=IBM
 
-You will get a return of the stock price.
+You will get a JSON return of the stock price.
 
-If you receive an error, then all 3 sources from this script have restructured their sites and rendered this script useless
+If you receive an error, you either sent an invalid ticker symbol or all source sites from this script restructured their sites. You may need to update the PHP script (git@github.com:m140v/Real-time-Stock-Price-API.git) 
+
+Updated sources are welcome.
+
