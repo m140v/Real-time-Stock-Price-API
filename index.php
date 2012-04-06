@@ -86,7 +86,7 @@ if($yahPrice){
 }
 
 else{
-      $jsonResponse = '{"error": "You either entered an invalid ticker or this script cannot scrape the source sites successfully Pass in AAPL as ticker. If you get this error still, Please check Github for the latest version."}';
+      $jsonResponse = '{"error": "Y"Please make sure you passed a valid stock sticker symbol. (e.g. yoursite.com/?ticker=GOOG). If this error persists, please update this script with the latest version ( https://github.com/m140v/Real-time-Stock-Price-API/). The source site might have been reformatted."}';
      echo json_encode($jsonResponse);
     return;
 
